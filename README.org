@@ -1,2 +1,12 @@
 * rdma-playground
 
+** Enable Soft-RoCE on a netdev
+
+#+begin_src sh :results output
+rdma link add rxe0 type rxe netdev eth1
+#+end_src
+
+** References
+
+- [[https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_infiniband_and_rdma_networks/index][RHEL 8 Docs]]
+- [[https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/configuring_infiniband_and_rdma_networks/index][RHEL 9 Docs]]
